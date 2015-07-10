@@ -1,0 +1,11 @@
+{
+	"name": "3alampro/hello-world",
+    "require": {
+    	"php": ">=5.3.0",
+        "monolog/monolog": "1.14.*",
+        "nesbot/carbon": "^1.20"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
